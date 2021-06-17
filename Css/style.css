@@ -1,0 +1,224 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+.back{
+  background-image: url('../images/backcover.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  
+}
+
+.heading{
+  color:rgb(0, 131, 239);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.shadow{
+  box-shadow: 5px,10px,5px,rgba(0, 0, 0, 0.2);
+}
+.card-img-top:hover{
+  transform: scale(1.5);
+  
+}
+.card{
+  overflow: hidden; 
+  transition: 0.2s all ;
+}
+
+.slider-heading{
+ color:rgb(0, 131, 239);
+ margin-top: 15px;
+ font-size: 30px;
+ text-align: center;
+ padding-top: 20px;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+.herotext{
+  color: white;
+  font-weight: bold;
+  
+   margin-top: 75px;
+   font-family:'Roboto', sans-serif;
+   vertical-align: middle;
+   text-align: center;
+   
+   
+}
+
+   
+   
+
+p{
+  text-align: center;
+  font-weight: bold;
+  
+  
+}
+.bg{
+  background-color: rgb(0, 131, 239);
+}
+.navbar-light .navbar-nav .nav-link {
+color: white;
+font-size: 20px;
+text-transform: uppercase;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.navbar-brand{
+  font-size: 35px;
+  font-weight: 500;
+  font-style: bold;
+  
+}
+
+
+  .modal-body input[type="text"]{
+    margin:10px;
+    border-radius: 5px;
+    background-color:snow;
+    width: 450px;
+
+  }
+  .caption{
+   font-size: 55px;
+    text-transform:uppercase;
+    
+    
+  }
+
+  
+  .modal-body input[type="password"]{
+    margin:10px;
+    border-radius: 5px;
+    background-color:snow;
+    width: 450px;
+
+  }
+  .modal-body input[type="text"]:focus{
+    border-color: rgb(84, 148, 201);
+  }
+  .modal-body input[type="password"]:focus{
+    border-color: rgb(84, 148, 201);
+  }
+  .modal-body button{
+    margin-top: 8px;
+    border-radius: 5px;
+  }
+
+
+  .carousel-control-prev{
+    background-image: none;
+    
+
+  }
+.form-inline .btn{
+  font-size: 20px;
+  text-transform: uppercase;
+  
+}
+.form-inline .btn:hover{
+  color: #111;
+}
+
+  .carousel-control-next{
+    background-image: none;
+  
+  }
+  .dropdown-item:hover{
+    background-color: rgb(0, 131, 239);
+    color: white;
+  }
+  .accredited{
+
+    line-height: 0.2 rem;
+    word-spacing: 0.2rem;
+    text-align: justify;
+  }
+  .social-media    {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .social-media li a{
+    display: inline-block;
+    filter: invert(1);
+    transform: scale(0.5);
+    transition: 0.5s ;
+  list-style: none;
+
+
+  }
+  .social-media li{
+    list-style: none;
+  }
+
+  .footer-heading{
+    color: white;
+    text-align:left;
+  font-weight: 700;
+    text-transform: uppercase;
+    font-size: 28px;
+  
+
+
+  }
+  .footer-content{
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-left: 10px;
+    
+  }
+  #scrollbutton{
+  right: 50px;
+  
+  bottom: 40px;
+  position: fixed;
+  border:none;
+  outline: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  background-color:rgb(55, 23, 233);
+  
+
+  }
+  .social-media li a:hover{
+    transform: scale(0.5) translateY(-15px);
+  }
+  .carousel-inner .carousel-item img{
+  height: 500px;
+  width: 150px;
+  }
+
+
+  @media only screen and (max-width:700px){
+    #scrollbutton{
+      display: none;
+    }
+    .herotext{
+      display: flex;
+    }
+  }
