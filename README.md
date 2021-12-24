@@ -7,7 +7,7 @@
 2. CSS 3
 3. Bootstrap 4
 4. JavaScript
-5. J-query![147358773-dce318f9-0b4c-4fd8-8467-720a2727fa2d](https://user-images.githubusercontent.com/85253378/147358799-cdeb4db8-1798-4086-b9e8-301ceb49ea32.png)
+5. J-query
 
 
 
